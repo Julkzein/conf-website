@@ -13,6 +13,18 @@ const sponsorsData = [
   },
   {
     logo: placeholder,
+    name: 'Sponsor 1',
+    link: 'https://sponsor1.com',
+    tier: 'platinum',
+  },
+  {
+    logo: placeholder,
+    name: 'Sponsor 1',
+    link: 'https://sponsor1.com',
+    tier: 'platinum',
+  },
+  {
+    logo: placeholder,
     name: 'Sponsor 2',
     link: 'https://sponsor2.com',
     tier: 'gold',
@@ -45,7 +57,7 @@ const SponsorsComponent = () => {
       <StarsBackground />
       <h1 className="text-4xl font-bold text-center justify-center mb-8">Sponsors</h1>
       {tiers.map((tier) => (
-        <div key={tier} className="mb-8">
+        <div key={tier} className="mb-8 text-center">
           <h2 className={`text-3xl font-bold mb-4 ${tier === 'platinum' ? 'bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500' : ''}`}>
             {tierTitles[tier]}
           </h2>

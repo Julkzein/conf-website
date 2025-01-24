@@ -4,7 +4,7 @@ import StarsBackground from '../StarsBackground';
 
 const ManifestoComponent = () => {
   return (
-    <div className="relative container mx-auto py-8">
+    <div className="relative container mx-auto py-8 padding-top max-h-[600px] w-full ">
         <StarsBackground />
       <h1 className="text-4xl font-bold text-center mb-8 bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
         Manifesto
